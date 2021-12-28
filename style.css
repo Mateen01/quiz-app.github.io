@@ -1,0 +1,47 @@
+.main1{
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;   
+}
+.main > div{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* ---------------- Timer styling ------------------ */
+
+.main{
+    /* height: 100vh; */
+    width: 20%;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.display{
+    display: flex;
+    width: 500px;
+    border: solid red;
+    flex-direction: column;
+}
+.display > div {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.display > div > button{
+    width: 32%;
+}
+.disable{
+    visibility: hidden !important;
+}
+.enable{
+    visibility: show !important;
+}

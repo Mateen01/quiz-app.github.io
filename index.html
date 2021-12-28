@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showQues(0) , timer()">
+    <div class="main1">
+
+        <div class="main">
+            <div class="display">
+                <div>
+                    <h2> MIN </h2>
+                    <h2> SEC </h2>
+                    <h2> MILI </h2>
+                </div>
+                <div>
+                    <h2 id="minHeading"> 0 </h2>
+                    <h2 id="secHeading"> 0 </h2>
+                    <h2 id="miliHeading"> 0 </h2>
+                </div>
+                <!-- <div>
+                    <button onclick="start()" id="startBtn">START</button>
+                    <button onclick="stop()">STOP</button>
+                    <button onclick="reset()">RESET</button>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- ------------------------------------------------------------- -->
+
+        <div class="firstDiv">
+            <div><h1>Quiz App</h1></div>
+            <h3 id="question">Question</h3>
+            <div>
+                <input type="radio" name="opt" id="opt1" class="radioBtn">
+                <label for="opt" class="options"></label>
+            </div>
+            
+            <div>
+                <input type="radio" name="opt" id="opt1" class="radioBtn">
+                <label for="opt" class="options"></label>
+            </div>
+            
+            <div>
+                <input type="radio" name="opt" id="opt1" class="radioBtn">
+                <label for="opt" class="options"></label>
+            </div>
+            
+            <div>
+                <input type="radio" name="opt" id="opt1" class="radioBtn">
+                <label for="opt" class="options"></label>
+            </div>
+        </div>
+        <button onclick="next()">Next</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
